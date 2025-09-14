@@ -11,7 +11,7 @@
 }
 
 .inner {
-  width: calc(100% + var(--grid-gutter));
+  width: calc(100% - var(--grid-gutter));
   display: flex;
   flex-wrap: wrap;
   justify-content: var(--grid-justify);
